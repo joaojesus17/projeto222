@@ -18,10 +18,6 @@ header{
     align-items: center;
     padding: 20px 0;
 }
-#cada{
-    color: white;
-    text-decoration: none;
-}
 .cadas{
     color: white;
     position: relative;
@@ -34,6 +30,22 @@ header{
     left: 880px;
     top: 62px;
 }
+.filmes::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    width: 50%;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.filmes:hover::after{
+    transform: scaleX(1);
+}
+
 
 .filme{
     position: relative;
@@ -48,6 +60,21 @@ header{
     top: 152px;
     text-decoration: none;
 }
+.prog::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.prog:hover::after{
+    transform: scaleX(1);
+}
 .agenda{
     position: relative;
     left: 490px;
@@ -58,6 +85,21 @@ header{
     color: white;
     left: 1120px;
     top: -23px;
+}
+.comidas::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    width: 60%;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.comidas:hover::after{
+    transform: scaleX(1);
 }
 .pipoca{
     position: relative;
@@ -80,6 +122,21 @@ header{
     color: white;
     top: -100px;
     left: 1360px;
+}
+.cadastro::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    width: 87%;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.cadastro:hover::after{
+    transform: scaleX(1);
 }
 .animado{
     position: relative;

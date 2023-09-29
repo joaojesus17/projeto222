@@ -1,32 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Filmes</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="filmes.css">
 </head>
+
 <body>
    <header class="header">
       <div><img class="senacine" src="senacine.png" alt=""></div>
-      <div><h3 class="prog">PROGRAMAÇÃO</h3></div>
-      <div><h3 class="filmes">FILMES</h3></div>
-      <div><h3 class="comidas">COMIDAS</h3></div>
-      <div><h3 class="cadas">CADASTRE-SE</h3></div>
-       
+      <div>
+         <h3 class="prog">PROGRAMAÇÃO</h3>
+      </div>
+      <div>
+         <h3 class="filmes">FILMES</h3>
+      </div>
+      <div>
+         <h3 class="comidas">COMIDAS</h3>
+      </div>
+      <div>
+         <h3 class="cadas">CADASTRE-SE</h3>
+      </div>
+
    </header>
    <main>
-      <div class="card">
-         <div class="poster">
-            <img src="VERTICAL.png" alt="">
+      <div>
+         <div class="cartaz">Em cartaz</div>
+         <div class="card">
+            <div class="poster">
+               <img src="ope.jpg" alt="">
+            </div>
+            <div class="details">
+               <img src="title.png" alt="" class="logo">
+               <h3>Dirigido por Christopher Nolan</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>4/5</span>
+               </div>
+               <div class="tags">
+                  <span>historia </span>
+                  <span>Drama</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="caard1.png" alt=""></li>
+                     <li><img src="caard2.png" alt=""></li>
+                     <li><img src="caard3.png" alt=""></li>
+                     <li><img src="caard4.png" alt=""></li>
+                     <li><img src="caard5.png" alt=""></li>
+                  </ul>
+               </div>
+            </div>
          </div>
-         <div class="details">
-            <img src="a-freira-2-00.png" alt="" class="logo">
-            <h3>Dirigido por Michael Chaves</h3>
+
+         <div id="card-2" class="card">
+            <div class="poster">
+               <img src="VERTICAL.png" alt="">
+            </div>
+            <div class="details">
+               <img src="a-freira-2-00.png" alt="" class="logo">
+               <h3>Dirigido por Greta Gerwig</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>3/5</span>
+               </div>
+               <div class="tags">
+                  <span>Thriller</span>
+                  <span>Drama</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="cast1.png" alt=""></li>
+                     <li><img src="cast2.png" alt=""></li>
+                     <li><img src="cast3.png" alt=""></li>
+                     <li><img src="cast4.png" alt=""></li>
+                     <li><img src="cast5.png" alt=""></li>
+                  </ul>
+               </div>
+            </div>
          </div>
+
+         <div id="card-3" class="card">
+            <div class="poster">
+               <img src="mega.jpg" alt="">
+            </div>
+            <div class="details">
+               <img src="megatubas.png" alt="" class="logo">
+               <h3>Dirigido por Ben Wheatley</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>4/5</span>
+               </div>
+               <div class="tags">
+                  <span>Terror</span>
+                  <span>Aventura</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="mega1.jpg" alt=""></li>
+                     <li><img src="mega2.jpg" alt=""></li>
+                     <li><img src="mega4.jpg" alt=""></li>
+                     <li><img src="mega3.jpg" alt=""></li>
+                     <li><img src="mega5.jpg" alt=""></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div id="card-4" class="card">
+            <div class="poster">
+               <img src="missão.png" alt="">
+            </div>
+            <div class="details">
+               <img src="missao im.png" alt="" class="logo">
+               <h3>Dirigido por Ben Wheatley</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>4/5</span>
+               </div>
+               <div class="tags">
+                  <span>Ação</span>
+                  <span>Thriller</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="miss1.jpg" alt=""></li>
+                     <li><img src="miss2.jpg" alt=""></li>
+                     <li><img src="miss3 copy.jpg" alt=""></li>
+                     <li><img src="miss4.jpg" alt=""></li>
+                     <li><img src="miss5 copy.jpg" alt=""></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div id="card-5" class="card">
+            <div class="poster">
+               <img src="elementos.webp" alt="">
+            </div>
+            <div class="details">
+               <img src="elem.png" alt="" class="logo">
+               <h3>Dirigido por Peter Sohn</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>4/5</span>
+               </div>
+               <div class="tags">
+                  <span>Comedia</span>
+                  <span>Animação</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="miss1.jpg" alt=""></li>
+                     <li><img src="miss2.jpg" alt=""></li>
+                     <li><img src="miss3 copy.jpg" alt=""></li>
+                     <li><img src="miss4.jpg" alt=""></li>
+                     <li><img src="miss5 copy.jpg" alt=""></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="breve">Em breve</div>
+         <div id="card-6" class="card">
+            <div class="poster">
+               <img src="assa.webp" alt="">
+            </div>
+            <div class="details">
+
+               <h3>Dirigido por Peter Sohn</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>4/5</span>
+               </div>
+               <div class="tags">
+                  <span>Comedia</span>
+                  <span>Animação</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="miss1.jpg" alt=""></li>
+                     <li><img src="miss2.jpg" alt=""></li>
+                     <li><img src="miss3 copy.jpg" alt=""></li>
+                     <li><img src="miss4.jpg" alt=""></li>
+                     <li><img src="miss5 copy.jpg" alt=""></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div id="card-7" class="card">
+            <div class="poster">
+               <img src="pro.jpg" alt="">
+            </div>
+            <div class="details">
+               <h3>Dirigido por Peter Sohn</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>4/5</span>
+               </div>
+               <div class="tags">
+                  <span>Comedia</span>
+                  <span>Animação</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="miss1.jpg" alt=""></li>
+                     <li><img src="miss2.jpg" alt=""></li>
+                     <li><img src="miss3 copy.jpg" alt=""></li>
+                     <li><img src="miss4.jpg" alt=""></li>
+                     <li><img src="miss5 copy.jpg" alt=""></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div id="card-8" class="card">
+            <div class="poster">
+               <img src="aq.jpg" alt="">
+            </div>
+            <div class="details">
+               <h3>Dirigido por Peter Sohn</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>4/5</span>
+               </div>
+               <div class="tags">
+                  <span>Comedia</span>
+                  <span>Animação</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="miss1.jpg" alt=""></li>
+                     <li><img src="miss2.jpg" alt=""></li>
+                     <li><img src="miss3 copy.jpg" alt=""></li>
+                     <li><img src="miss4.jpg" alt=""></li>
+                     <li><img src="miss5 copy.jpg" alt=""></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div id="card-9" class="card">
+            <div class="poster">
+               <img src="exorcista.jpg" alt="">
+            </div>
+            <div class="details">
+               <h3>Dirigido por Peter Sohn</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>4/5</span>
+               </div>
+               <div class="tags">
+                  <span>Comedia</span>
+                  <span>Animação</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="miss1.jpg" alt=""></li>
+                     <li><img src="miss2.jpg" alt=""></li>
+                     <li><img src="miss3 copy.jpg" alt=""></li>
+                     <li><img src="miss4.jpg" alt=""></li>
+                     <li><img src="miss5 copy.jpg" alt=""></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div id="card-10" class="card">
+            <div class="poster">
+               <img src="five.jpg" alt="">
+            </div>
+            <div class="details">
+               <h3>Dirigido por Peter Sohn</h3>
+               <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>4/5</span>
+               </div>
+               <div class="tags">
+                  <span>Comedia</span>
+                  <span>Animação</span>
+               </div>
+               <div class="cast">
+                  <h4>Elenco</h4>
+                  <ul>
+                     <li><img src="miss1.jpg" alt=""></li>
+                     <li><img src="miss2.jpg" alt=""></li>
+                     <li><img src="miss3 copy.jpg" alt=""></li>
+                     <li><img src="miss4.jpg" alt=""></li>
+                     <li><img src="miss5 copy.jpg" alt=""></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <footer class="footer">
+             <img class="sena-2" src="senacine.png" alt="">
+             <div><h3 class="cena">SENACINE</h3></div>
+             <div><a class="sobre" href="">Sobre nós</a></div>
+             <div><a class="loc" href="">Localização</a></div>
+             <div><h3 class="cena-2">PRODUTOS</h3></div>
+             <div><a class="comidas-2" href="">Comidas</a></div>
+             <div><a class="filmes-2" href="">Filmes</a></div>
+             <div><h3 class="redes-2">REDES SOCIAIS</h3></div>
+             <div><a class="insta" href="">Instagram</a></div>
+             <div><a class="face" href="">Facebook</a></div>
+             <div><a class="twiter" href="">Twitter</a></div>
+
+         </footer>
       </div>
    </main>
-   
+
 </body>
+
 </html>
