@@ -53,20 +53,20 @@
 
          <div class="form-box register">
             <h2>Registration</h2>
-            <form action="#">
+            <form action="registro.php" method="post">
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="text" required>
+                    <input type="text" name="username" required>
                     <label>Username</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="email" required>
+                    <input type="email" name="email" required>
                     <label>Email</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="senha" required>
+                    <input type="senha" name="senha" required>
                     <label>Senha</label>
                 </div>
                 <div class="remerber-forgot">
@@ -80,5 +80,6 @@
             </form>
          </div>
      </main>
+     <script src="cadastro.js"></script>
 </body>
 </html>

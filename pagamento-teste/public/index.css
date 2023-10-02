@@ -1,0 +1,43 @@
+#logo img{
+    width: 145px;
+    top: -10px;
+    margin-left: 240px;
+    margin-top: 50px;
+    position: absolute;
+}
+header{
+    position: relative;
+    width: 120%;
+    background-color: black;
+    height: 200px;
+    left: -10px;
+    top: -10px;
+}
+.prog{
+    position: relative;
+    color: white;
+    left: 490px;
+    top: 100px;
+    font-size: 20px;
+}
+.filmes{
+    position: relative;
+    color: white;
+    left: 830px;
+    top: 76px;
+    font-size: 20px;
+}
+.comidas{
+    position: relative;
+    color: white;
+    left: 1100px;
+    top: 56px;
+    font-size: 20px;
+}
+.cadastro{
+    position: relative;
+    color: white;
+    left: 1400px;
+    top: 36px;
+    font-size: 20px;
+}
